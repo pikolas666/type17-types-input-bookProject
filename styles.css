@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    width:70%;
+    flex-direction: column;
+    margin: auto;
+    gap:10px;
+}
+input{
+    padding:7px;
+    text-align: center;
+}
+.online-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    padding:7px;
+    background-color: darkseagreen;
+    border: none;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 20px;
+    color: aliceblue;
+}
+.book-list{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    height: 500px;
+    flex-wrap: wrap;
+}
+.book-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(80, 168, 8);
+    padding: 1rem;
+    min-width: 200px;
+    max-height: 200px;
+    margin: 5px;
+}
